@@ -35,13 +35,14 @@ class animation extends Phaser.Scene{
         this.run_anim.scale=1
         }
 
-    this.idle = this.add.sprite(300, 100, 'respi1').setOrigin(0,0);
-    console.log(frames)
-    this.anims.create({
-                          key: 'respiration',
-                          frames: this.getFrames("respi",10),
-    frameRate: 12,
-    repeat: -1
-});
-this.idle.play('respiration');
+    //this.idle = this.add.sprite(300, 100, 'respi1').setOrigin(0,0);
+    //console.log(frames)
+    //this.anims.create({
+                          //key: 'respiration',
+    //frames: this.getFrames("respi",10),
+    //frameRate: 12,
+    //repeat: -1
+    //});
+    //this.idle.play('respiration');
+
 }
